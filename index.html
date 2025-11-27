@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEN Speech & Hearing Care | Empowering Communication</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader" class="loader-container">
+        <i class="fas fa-ear-listen fa-3x fa-beat"></i>
+    </div>
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo" onclick="route('home')">
+                <i class="fas fa-lightbulb"></i> LUMEN <span class="sub-logo">Speech & Hearing</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" onclick="route('home')">Home</a></li>
+                <li><a href="#about" onclick="route('about')">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#services" class="dropbtn">Disorders & Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#speech-disorders" onclick="route('speech-disorders')">Speech Disorders</a>
+                        <a href="#hearing-disorders" onclick="route('hearing-disorders')">Hearing Disorders</a>
+                        <a href="#autism-asd" onclick="route('autism-asd')">Autism (ASD)</a>
+                    </div>
+                </li>
+                <li><a href="#programs" onclick="route('programs')">Programs</a></li>
+                <li><a href="#contact" class="btn-nav" onclick="route('contact')">Book Appointment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="app">
+        </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>LUMEN</h3>
+                <p>Empowering Communication.<br>Enhancing Lives.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home" onclick="route('home')">Home</a></li>
+                    <li><a href="#about" onclick="route('about')">About Us</a></li>
+                    <li><a href="#programs" onclick="route('programs')">Programs</a></li>
+                    <li><a href="#contact" onclick="route('contact')">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Health Valley, Wellness City</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> care@lumenclinic.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LUMEN Speech & Hearing Care. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
